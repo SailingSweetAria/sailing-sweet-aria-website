@@ -1,4 +1,4 @@
-baseURL = 'https://sailingsweetaria.com/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Sailing Sweet Aria'
 theme = 'hugo-resume'
