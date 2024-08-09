@@ -1,0 +1,24 @@
+{{define "main"}}
+{{ partial "breadcrumbs" . }}
+
+<div class="ml-3">
+<div style="max-height: 500px; overflow: hidden; text-align: center;">
+<img src="/img/gear.jpg" alt="Gear" style="display:block; width: 100%; margin-top: -300px">
+</div>
+<h2 class="mb-0" style="margin-top: -4rem; text-shadow: floralwhite 1px 1px 1px ;"><a href="{{ .Permalink }}">{{ .Params.title }}</a></h2>
+<i>These are products I've used and believe in. Some of these are affilate links, but that has no influence on my recommendation. This gear rocks!</i>
+</div>
+
+<div class="d-flex flex-row mb-5">
+    <div class="row mb-0 mt-5 ml-3">
+    {{ range $.Site.Data.products }}
+        <div class="column col-sm">
+            <a href="{{.link}}" target="_BLANK">
+                <img src="{{.image}}" alt="{{.title}}" width="100" height="100" style="display:block;">
+                {{ .title }}</a>
+            <p>{{ .description }}</p>
+        </div>
+    {{ end }}
+    </div>
+</div>
+{{ end }}

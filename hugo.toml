@@ -11,8 +11,11 @@ firstName = "Sailing"
 lastName = "Sweet Aria"
 phone = "1-555-555-1234"
 showContact = true
+sections = ["charters"]
 
 [[params.handles]]
 link = "https://www.linkedin.com/in/edwardwebb/"
 name = "Instagram"
 
+[taxonomies]
+tag = "tags"
