@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{ partial "breadcrumbs" . }}
+{{ if .Params.hero }}
+  <div style="max-height: 500px; overflow: hidden; text-align: center;">
+    <img src="{{ .Params.hero }}" alt="Gear" style="display:block; width: 100%; margin-top: -300px;">
+  </div>
+{{ end }}
+<section class="resume-section p-3 p-lg-5 d-flex d-column" id="{{ replace .Title " " "-" }}">
+  <div class="">
+    <h1 class="mb-0"><span class="text-primary">{{ .Title }}</span></h1>
+    {{ .Content }}
+  </div>
+</section>
+{{ end }}

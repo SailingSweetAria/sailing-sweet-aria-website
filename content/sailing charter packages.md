@@ -1,4 +1,8 @@
-# Sailing Charter Packages
+---
+title: "Sailing Charter Packages"
+layout: "single"
+hero: "/img/gear.jpg"
+---
 
 ## 2-Hour Sail
 

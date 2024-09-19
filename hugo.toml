@@ -7,11 +7,10 @@ theme = 'hugo-resume'
 profileImage = "img/circleshot.jpg"
 address = "White Stone, VA"
 email = "morgan@sailingsweetaria.com"
-firstName = "Sailing"
-lastName = "Sweet Aria"
+firstName = "Sweet Sea"
+lastName = "Charters"
 phone = "1-555-555-1234"
 showContact = true
-sections = ["charters"]
 
 [[params.handles]]
 link = "https://www.linkedin.com/in/edwardwebb/"
