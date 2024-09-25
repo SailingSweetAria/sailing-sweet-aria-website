@@ -12,6 +12,7 @@ Enjoy a scenic 2-hour sail and savor our Boat Box, featuring a selection of loca
 [📅 Book](https://bookeo.com/sweetseachartersllc?type=415903EUNEL19226B3FAB5)
 
 ### TAPAS TASTER:
+![tapas!](https://www.whatdadcooked.com/wp-content/uploads/2015/08/tapas-new-73.jpg)
 Experience the thrill of sailing combined with a delectable assortment of tapas prepared by Chef Crystal.
 
 [📅 Book](https://bookeo.com/sweetseachartersllc?type=415909J397A19226BA0E79)

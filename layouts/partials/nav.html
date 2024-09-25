@@ -22,18 +22,10 @@
       <li class="nav-item">
         <a class="nav-link js-scroll-trigger" href="/shop">shop</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="/sailing-charter-packages">sailing charter packages</a>
-      </li>
       {{ range .Site.Params.sections }}
       <li class="nav-item">
         <a class="nav-link js-scroll-trigger" href="/{{.}}">{{ . }}</a>
       </li>
-      {{ end }}
-      {{ if .Site.Params.showContact}}
-          <li class="nav-item">
-            <a class="nav-link" href="/contact">{{ i18n "contact" }}</a>
-          </li>
       {{ end }}
     </ul>
   </div>
