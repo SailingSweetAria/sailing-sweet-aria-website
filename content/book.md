@@ -1,5 +1,5 @@
 ---
-title: "Sailing Charter Packages"
+title: "Book Your Experience"
 layout: "single"
 hero: "/img/gear.jpg"
 ---
@@ -9,8 +9,12 @@ hero: "/img/gear.jpg"
 ### QUICK ESCAPE:
 Enjoy a scenic 2-hour sail and savor our Boat Box, featuring a selection of local snacks and refreshments.
 
+[📅 Book](https://bookeo.com/sweetseachartersllc?type=415903EUNEL19226B3FAB5)
+
 ### TAPAS TASTER:
 Experience the thrill of sailing combined with a delectable assortment of tapas prepared by Chef Crystal.
+
+[📅 Book](https://bookeo.com/sweetseachartersllc?type=415909J397A19226BA0E79)
 
 ## 4-Hour Sail
 

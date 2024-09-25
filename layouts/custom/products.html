@@ -1,14 +1,13 @@
-{{define "main"}}
+{{ define "main" }}
 {{ partial "breadcrumbs" . }}
-
-<div class="ml-3">
-<div style="max-height: 500px; overflow: hidden; text-align: center;">
-<img src="/img/gear.jpg" alt="Gear" style="display:block; width: 100%; margin-top: -300px">
-</div>
-<h2 class="mb-0" style="margin-top: -4rem; text-shadow: floralwhite 1px 1px 1px ;"><a href="{{ .Permalink }}">{{ .Params.title }}</a></h2>
-<i>These are products I've used and believe in. Some of these are affilate links, but that has no influence on my recommendation. This gear rocks!</i>
-</div>
-
+  <div style="max-height: 500px; overflow: hidden; text-align: center;">
+    <img src="/img/gear.jpg" alt="Gear" style="display:block; width: 100%; margin-top: -300px">
+  </div>
+  <div class="p-3">
+    <h1 class="mb-0"><span class="text-primary">{{ .Title }}</span></h1>
+    <i>These are products I've used and believe in. Some of these are affilate links, but that has no influence on my recommendation. This gear rocks!</i>
+    </div>
+<section class="resume-section p-3 p-lg-5 d-flex d-column" id="{{ replace .Title " " "-" }}">
 <div class="d-flex flex-row mb-5">
     <div class="row mb-0 mt-5 ml-3">
     {{ range $.Site.Data.products }}
@@ -21,4 +20,5 @@
     {{ end }}
     </div>
 </div>
+</section>
 {{ end }}
